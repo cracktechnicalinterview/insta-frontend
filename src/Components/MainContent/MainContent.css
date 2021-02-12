@@ -3,4 +3,16 @@ body {
 }
 .maincontent__container {
     max-width: 47% !important;
+    overflow-y: scroll;
+    max-height: 800px;
 }
+
+.maincontent__container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .maincontent__container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
