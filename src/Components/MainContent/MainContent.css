@@ -1,0 +1,6 @@
+body {
+    background-color: #fafafa;
+}
+.maincontent__container {
+    max-width: 47% !important;
+}

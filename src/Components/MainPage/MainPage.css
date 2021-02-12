@@ -1,0 +1,23 @@
+.mainpage__uploadicon {
+    height: 80px;
+    width: 80px;
+}
+.mainpage__divider {
+    height: 0px;
+    width: 220px;
+    border: 1px solid #dbdbdb;
+    margin-top: 40px;
+}
+.mainpage__container {
+    text-align: center;
+    margin: 0px 10px 0px -20px;
+    display :flex ;
+    justify-content: center ;
+}   
+.fileupload > input {
+    display: none;
+}
+.upload_text {
+    text-align: center;
+    margin-left: -25px;
+}
